@@ -21,7 +21,7 @@ int main()
 
     for(int i=0;i<no_vertices;i++)
         for(int j=0;j<no_vertices;j++)
-        adj[i][j]=0;
+        adj[i][j]=999;
     
     while(row!=-1&&column!=-1)
     {
