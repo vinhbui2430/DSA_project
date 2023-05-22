@@ -24,9 +24,9 @@ void display(int dist[] , int par[] ){
            cout<< temp << " <- " ;
            temp = par[temp] ; 
        }
-       cout<<endl; 
-       cout<<"::::Distance = " << dist[i] ; 
-       cout<<endl; 
+        
+       cout<<"\n\t\t\tDistance = " << dist[i] ; 
+       cout<<endl<<endl; 
    } 
 }
 
