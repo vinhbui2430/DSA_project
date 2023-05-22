@@ -1,0 +1,26 @@
+Enter n: 5
+Enter cost matrix:
+0 2 9999 9999 9999
+9999 0 3 1 9999
+9999 9999 0 3 9999
+9999 9999 9999 0 2
+9999 9999 9999 9999 0
+
+Enter source: 0
+
+The shortest paths from the source node 0 are:
+
+0 <- (No parent)
+::::Distance = 0
+
+1 <- 0 <-
+::::Distance = 2
+
+2 <- 0 <-
+::::Distance = 4
+
+3 <- 1 <- 0 <-
+::::Distance = 3
+
+4 <- 1 <- 0 <-
+::::Distance = 3
